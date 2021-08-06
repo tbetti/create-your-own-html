@@ -1,10 +1,6 @@
-const nameEl = $("#name");
-const locationEl = $("#location");
-const hobbyEl = $("#hobby");
-const linkedinEl = $("#linkedin");
-
 const inquirer = require('inquirer');
 const fs = require('fs');
+const path = require('path');
 
 inquirer
   .prompt([

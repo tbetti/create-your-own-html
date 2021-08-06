@@ -1,0 +1,11 @@
+{
+  "name": "create-your-own-html",
+  "version": "1.0.0",
+  "description": "Use node.js to create your own html webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiana Bettinson",
+  "license": "MIT"
+}
