@@ -17,7 +17,9 @@
   Ensure you have Node.js downloaded on your computer. Download the application's develop folder. Then, open the folder on your source code editor. Run npm install to install all necessary dependencies and modules.
 
   ## Usage
-  Once the installation is complete, and change to the develop directory.  Then type "node index.js" into the command line and hit enter. Answer the prompts that follow and hit enter. When finished, your custom HTML file will be generated.
+  Once the installation is complete, and change to the develop directory.  Then type "node index.js" into the command line and hit enter. Answer the prompts that follow and hit enter. When finished, your custom HTML file will be generated.  See images below:
+  ![HTML created based on user input](/Develop/public/rendered-html.png)
+  ![View of completed HTML page](/Develop/public/completed-html.png)
 
   ## License
   This project is registered under the [MIT License](/LICENSE)
