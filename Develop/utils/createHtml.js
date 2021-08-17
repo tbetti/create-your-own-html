@@ -27,14 +27,14 @@ function createHtml(data){
     <body>
         <div class="intro">
             <h1>Hi! I'm ${data.name}</h1>
-            <p>I am from ${data.location}</p>
-            <p>My favorite hobby is ${data.hobby}</p>
+            <p>I am a ${data.occupation} based in ${data.location}.  ${data.bio}</p>
+            <p>Be sure to check out my profile below!</p>
             <div class="link-box">
-                <a href="https://github.com/${data.github}" target="_blank"><button>View Profile</button></a>
+                <a href="${data.profile}" target="_blank"><button>View Profile</button></a>
                 <div class="icon-box">
-                    <a href="https://github.com/${data.github}" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="https://linkedin.com/in/${data.linkedin}" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a href="mailto:"><i class="bi bi-envelope-fill" target="_blank"></i></a>
+                    <a href="https://github.com/${data.github}/" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/${data.linkedin}/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="mailto:${data.email}"><i class="bi bi-envelope-fill" target="_blank"></i></a>
                 </div>
             </div>
         </div>
